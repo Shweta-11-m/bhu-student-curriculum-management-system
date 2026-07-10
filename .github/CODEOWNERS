@@ -1,0 +1,13 @@
+# BHU-SCMS repository ownership follows Engineering Governance v1.0.
+
+* @bhu-scms/engineering
+
+/packages/ui/ @bhu-scms/design-system @bhu-scms/frontend
+/packages/design-tokens/ @bhu-scms/design-system @bhu-scms/frontend
+/packages/firebase/ @bhu-scms/platform @bhu-scms/security
+/packages/types/ @bhu-scms/platform
+/apps/student/ @bhu-scms/frontend
+/apps/faculty/ @bhu-scms/frontend
+/apps/admin/ @bhu-scms/frontend
+/infrastructure/ @bhu-scms/platform @bhu-scms/security
+/docs/ @bhu-scms/engineering
