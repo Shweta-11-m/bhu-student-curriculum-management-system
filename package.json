@@ -1,0 +1,25 @@
+{
+  "name": "bhu-scms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BHU Student Curriculum Management System governed product monorepo.",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=20.11.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier --check .",
+    "format:write": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "turbo": "2.5.4"
+  }
+}
