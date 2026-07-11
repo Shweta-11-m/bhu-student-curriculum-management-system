@@ -1,0 +1,35 @@
+{
+  "name": "@bhu-scms/faculty",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Faculty web application for the BHU Student Curriculum Management System.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project tsconfig.json --noEmit && vite build",
+    "dev": "vite --host 0.0.0.0 --port 5174",
+    "lint": "eslint .",
+    "preview": "vite preview --host 0.0.0.0 --port 4174",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "5.1.1",
+    "@tanstack/react-query": "5.83.0",
+    "firebase": "11.10.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "7.60.0",
+    "react-router": "7.6.3",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@bhu-scms/eslint-config": "workspace:*",
+    "@bhu-scms/typescript-config": "workspace:*",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "@vitejs/plugin-react": "4.6.0",
+    "vite": "6.3.5",
+    "vitest": "3.2.4"
+  }
+}
