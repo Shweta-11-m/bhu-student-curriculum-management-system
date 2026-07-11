@@ -1,6 +1,7 @@
 ## Purpose
 
-Describe the implementation objective and the approved requirement or milestone this change supports.
+Describe the implementation objective and the approved requirement or milestone this change
+supports.
 
 ## Scope
 
